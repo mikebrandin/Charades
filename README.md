@@ -1,6 +1,6 @@
-#CHARADES
+# CHARADES
 
-##How to install
+## How to install
 
 1. Download the repository
 2. Install requests
