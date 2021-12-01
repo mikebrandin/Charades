@@ -4,12 +4,17 @@
 
 1. Download the repository
 2. Install requests
+3. Install PyDictionary
 
 ```
 pip install requests
 ```
 
-3. Run the game
+```
+pip install PyDictionary
+```
+
+4. Run the game
 
 ```
 python charades.py
