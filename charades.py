@@ -14,7 +14,7 @@ def print_word_info(word):
 gameRunning = True
 
 while gameRunning:
-    val = input("Is it your turn? y/n (or enter x to end the game): ")
+    val = input("Is it your turn? y/n (enter x to end the game): ")
 
     #If the game is over
     if val == "x" or val == "X":
@@ -30,7 +30,7 @@ while gameRunning:
         ready = input("You have 30 seconds. When you are ready, hit the enter key!")
         print("Timer has started, good luck!")
 
-        #Start the timer
+        #Start the 30 second timer
         now = time.time()
         future = now + 30
         while time.time() < future:
